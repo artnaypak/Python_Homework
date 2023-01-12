@@ -11,5 +11,4 @@ user_floatlist = list(map(float, input('Enter several real numbers (as 1.01) div
 print(user_floatlist) 
 
 new_list = [round(i % 1, 2) for i in user_floatlist if i % 1 != 0]
-
 print(max(new_list) - min(new_list))
